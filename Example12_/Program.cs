@@ -25,5 +25,5 @@ Console.WriteLine();
 newText = Replace(newText, 'к', 'К');
 Console.WriteLine(newText);
 Console.WriteLine();
-newText = Replace(newText, 'С', 'с');
+newText = Replace(newText, 'с', 'С');
 Console.WriteLine(newText);
