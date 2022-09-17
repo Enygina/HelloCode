@@ -1,15 +1,15 @@
-﻿// string[,] table = new string[2, 5];
-// //tabel [0,0] tabel[0,1] tabel[0,2] tabel[0,3]
-// //tabel [0,1] tabel[1,1] tabel[1,2] tabel[1,3]
-// table[1, 2] = "слово";
+﻿string[,] table = new string[2, 5];
+//tabel [0,0] tabel[0,1] tabel[0,2] tabel[0,3]
+//tabel [0,1] tabel[1,1] tabel[1,2] tabel[1,3]
+table[1, 2] = "слово";
 
-// for (int rows = 0; rows < 2;rows++)
-// {
-//     for (int colums = 0; colums < 5; colums++)
-//     {
-// Console.WriteLine($"-{table[rows, colums]}-");
-//     }
-// }
+for (int rows = 0; rows < 2;rows++)
+{
+    for (int colums = 0; colums < 5; colums++)
+    {
+Console.WriteLine($"-{table[rows, colums]}-");
+    }
+}
 
 
 
@@ -38,11 +38,11 @@ void FillArray(int[,] matr)
 }
 
 
-// int[,] matrix = new int[3, 4];
-// PrintArray(matrix);
-// FillArray(matrix);
-// Console.WriteLine();
-// PrintArray(matrix);
+int[,] matrix = new int[3, 4];
+PrintArray(matrix);
+FillArray(matrix);
+Console.WriteLine();
+PrintArray(matrix);
 
 
 int[,] pic = new int[,]
@@ -99,9 +99,9 @@ void FillImage(int row, int col)
 
 }
 
-// PrintImage(pic);
-// FillImage(13, 13);
-// PrintImage(pic);
+PrintImage(pic);
+FillImage(13, 13);
+PrintImage(pic);
 
 double Factorial(int n)
 {
@@ -110,13 +110,13 @@ double Factorial(int n)
 }
 for (int i = 1; i < 40; i++)
 {
-    // Console.WriteLine($"{i}! = {Factorial(i)}");
+    Console.WriteLine($"{i}! = {Factorial(i)}");
 }
 
 
-//f(1)=1
-//f(2)=1
-//f(n)= f(n-1) + f(n-2)
+// f(1)=1
+// f(2)=1
+// f(n)= f(n-1) + f(n-2)
 
 double Fibonacci(int n)
 {
